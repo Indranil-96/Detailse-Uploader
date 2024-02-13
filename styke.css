@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  display: block;
+  height: 20rem;
+  width: 18rem;
+  border: 1px solid red;
+  background: rgba(180, 46, 46, 0.2);
+  text-align: center;
+  cursor: pointer;
+}
+
+#add{
+  margin-top: 1rem;
+  font-size: 16px;
+  background-color: #008CBA;
+  color: white;
+  border-radius: 12px;
+  border: 2px solid #008CBA;
+}
+#add:hover{
+  background-color: orangered;
+  cursor: pointer;
+}
+#print{
+  margin-top: 1rem;
+  font-size: 16px;
+  background-color: #f44336;
+  color: white;
+  border-radius: 12px;
+  border: 1px solid orangered;
+}
+
+#print:hover{
+  background-color: blueviolet;
+  cursor: pointer;
+}
+
+h2{
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  color: orangered;
+  border: none;
+}
+
+
+/* This is for the result Section */
+body{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(255,167,255,0.3);
+}
+
+
+.result{
+  margin-left: 1rem;
+  display: block;
+  height: 96vh;
+  width: 40vw;
+  border: 1px dashed red;
+  text-align: center;
+  background-color: rgba(255,167,255,0.3);
+}
+
+
+.studentD{
+  display: flex;
+  margin-top: 1rem;
+}
